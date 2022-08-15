@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #4a99f8;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.clock span {
+    font-size: 30px;
+}
+
+.setAlarm {
+    display: flex;
+    /* align-items: center;
+    justify-content: space-evenly; */
+    margin: 25px 0;
+}
+
+.setHour,
+.setMinutes,
+.Status {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.setHour div {
+    margin-right: 20px;
+}
+
+.btn button {
+    color: #fff;
+    background-color: #4a99f8;
+    border: none;
+    outline: none;
+    width: 300px;
+    border-radius: 5px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.select {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    /* height: 15px; */
+    overflow: scroll;
+}
